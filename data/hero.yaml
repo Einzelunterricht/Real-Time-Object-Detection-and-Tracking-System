@@ -1,0 +1,9 @@
+# 这里的 path 是你存放 images 和 labels 的根目录
+path: D:/Hots_AI/Dataset_New
+train: images/train  # 对应 D:/Hots_AI/Dataset/images/train
+val: images/val      # 对应 D:/Hots_AI/Dataset/images/val
+
+names:
+  0: teammate_hp
+  1: enemy_hp
+  2: self_hp
